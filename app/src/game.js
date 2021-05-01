@@ -69,6 +69,7 @@ export function game_init(options){
     world.registerComponent(Overlay2dComponent)
     world.registerComponent(Project2dComponent)
     world.registerComponent(FuelComponent)
+    world.registerComponent(CameraSystem)
 
 
     // register our systems
